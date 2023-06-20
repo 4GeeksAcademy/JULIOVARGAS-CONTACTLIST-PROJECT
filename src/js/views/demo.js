@@ -10,7 +10,11 @@ export const Demo = () => {
 
 	return (
 		<div className="container">
-			<ul className="list-group">
+			<Link to="/">
+				<button className="btn btn-success" style={{display: "flex", justifyContent: "right"}}>Add new contact</button>
+			</Link>
+			
+			{/* <ul className="list-group">
 				{store.demo.map((item, index) => {
 					return (
 						<li
@@ -33,11 +37,7 @@ export const Demo = () => {
 						</li>
 					);
 				})}
-			</ul>
-			<br />
-			<Link to="/">
-				<button className="btn btn-primary">Back home</button>
-			</Link>
+			</ul> */}
 		</div>
 	);
 };
