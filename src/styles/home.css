@@ -1,0 +1,21 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(72, 255, 0);
+    border-radius: black, -0;
+
+}
+.formulario{
+    background-color: rgb(2, 2, 2);
+    width: 800px;
+    height: 800px;
+    color: rgb(121, 12, 97);
+}
+.botonBack{
+    background-color: blueviolet;
+    color: chartreuse;
+}
